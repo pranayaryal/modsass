@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pranay Aryal/Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/application.css">
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  </head>
+  <body>
+    <div class="grid">
+      <header class="grid__col--12 panel--padded--centered" role="banner"> 
+       
+        <nav class="navbar" role="navigation">
+          <span id="toggle" class="icn--nav-toggle is-displayed-mobile">
+            <b class="srt">Toggle</b>
+          </span>
+          <ul class="nav is-collapsed-mobile">
+            <li class="nav__item"><a href="index.html">Portfolio</a></li>
+            <li class="nav__item"><a href="about.html">About</a></li>
+            <li class="nav__item--current"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>     
+      </header> 
+    </div>
+    
+   
+    
+    
+  
+    
+         
+    
+    
+    <div class="grid">
+      <div class="grid__col--3"></div>
+      <div class="grid__col--6"> 
+        <h4 class="grid">contact form</h4>
+        <form class="form">
+          <label class="form__label--hidden" for="name">Name:</label> 
+          <input class="form__input" type="text" id="name" placeholder="Name">
+          
+          <label class="form__label--hidden" for="email">Email:</label>
+          <input class="form__input" type="email" id="email" placeholder="email@website.com">
+      
+          <label class="form__label--hidden" for="msg">Message:</label>
+          <textarea class="form__input" id="msg" placeholder="Message..." rows="7"></textarea>
+      
+          <input class="btn--default" type="submit" value="Submit">
+          <input class="btn--warning" type="reset" value="Reset">
+        </form>
+      </div>
+      <div class="grid__col--3"></div>
+    </div>
+    
+    <div class="grid">
+      <footer class="grid__col--12 panel--centered" role="contentinfo">
+        <p>A simple UI Kit for everyone to share and enjoy.</p>
+      </footer>
+    </div>
+    <script>
+      $('#toggle').click(function() {
+        $(this).next('.nav').toggleClass("is-collapsed-mobile");
+      });
+    </script>
+  </body>
+</html>
