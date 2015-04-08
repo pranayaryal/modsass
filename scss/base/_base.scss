@@ -52,11 +52,11 @@ p {
 }
 
 blockquote {
-	@media (min-width: 769px) {
+	@include mq(medium) {
 		margin: em(32px, 24px) 0;
 		padding: 0 0 0 5%;
 		border-left: em(8px, 24px) solid palette(grey, xx-light); 
-		font-size: em(24px);
+		font-size: em(20px);
 	}
 	font-weight: $font-weight--light;
 	font-style : italic;
