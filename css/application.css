@@ -278,10 +278,16 @@ button {
   outline: 0; }
 
 footer {
+  font-size: 0.75em;
   border-top: 1px solid #ebecec; }
   footer p {
-    font-size: 1em;
-    margin-top: 1.375em; }
+    margin-top: 0.83333em; }
+  footer .social-icon {
+    width: 1.66667em;
+    height: 1.66667em;
+    margin-top: 2.08333em;
+    margin-bottom: 0.41667em;
+    margin-left: 0.41667em; }
 
 .panel, .panel--centered {
   padding-top: 1.875em; }
