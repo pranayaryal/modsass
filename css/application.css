@@ -339,7 +339,7 @@ footer {
 @media (min-width: 1px) and (max-width: 768px) {
   [class^="grid__col--"] {
     margin-top: 0.75em;
-    margin-bottom: 0.75em; } }
+    margin-bottom: 0.3125em; } }
 @media (min-width: 769px) {
   [class^="grid__col--"] {
     float: left;
@@ -406,6 +406,10 @@ h2, .headline-secondary, .headline-secondary--grouped {
   line-height: 0;
   cursor: pointer; }
 
+.para {
+  font-size: 0.9375em;
+  margin-top: 1.375em; }
+
 .img--wrap {
   border: 1px solid #d6d7d9;
   padding: 0.75em; }
@@ -420,6 +424,11 @@ h2, .headline-secondary, .headline-secondary--grouped {
 @media (min-width: 769px) {
   .img--hero {
     margin-bottom: 2.625em; } }
+
+/*----------------For Grid Paragraph---------------------*/
+.para {
+  margin-top: 0em;
+  padding-top: 0.125em; }
 
 .headline-primary {
   margin-bottom: 1.66667em; }
